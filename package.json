@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "y",
+  "description": "Selenium Client POC",
+  "main": "index.js",
+  "repository": "none",
+  "author": "FE Team",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chromedriver": "^78.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+   "test": "mocha --recursive --timeout 200000 index.js"
+  }
+ 
+}
